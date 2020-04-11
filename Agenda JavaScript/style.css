@@ -1,0 +1,15 @@
+body {
+	background-color: #FFF8DC;
+}
+#app {
+	text-align: center;
+	margin-top: 280px;
+}
+#topo {
+	text-align: center;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+
+}
+#topo h1{
+	font-size: 100px;
+}
