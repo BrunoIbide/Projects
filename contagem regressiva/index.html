@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contagem regressiva</title>
+	<script type="text/javascript">
+		var count=new Number();
+		var count=11;
+
+		function start(){
+			if((count - 1) >= 0){
+				count=count-1;
+				if(count == 0){
+					count = "Fim";
+				}else if(count < 10){
+					count = "0"+count;
+				}
+				tempo.innerText=count;
+				setTimeout('start();',1000);
+			}
+		}
+
+
+
+	</script>
+
+	<style type="text/css">
+		#tempo{
+			align-items: center;
+			font:bold 48px Arial;
+			padding: 50px;
+			color:black;
+			border:thin dashed black;
+			width: 200px;
+			height: 200px;
+			text-align:center;
+			line-height: 200px;		
+		}
+
+	</style>
+</head>
+<body onload="start();">
+	<div id="tempo"></div>
+</body>
+</html>
