@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Relógio Java Script</title>
+	<script type="text/javascript">
+		function relogio() {
+			var data = new Date();
+			var hora = data.getHours();
+			var minutos = data.getMinutes();
+			var segundos = data.getSeconds();
+
+			if (hora < 10) {
+				hora="0"+hora;
+			}
+			if (minutos < 10) {
+				minutos="0"+minutos;
+			}
+			if (segundos < 10) {
+				segundos="0"+segundos;
+			}
+			document.getElementById('relogio').innerHTML=hora+":"+minutos+":"+segundos;
+		}
+		window.setInterval("relogio()",1000);
+
+	</script>
+	<style type="text/css">
+		#relogio{
+			color: black;
+			font: bold 48px Arial;
+			padding: 50px;
+		}
+
+		body{
+			top: 50%;
+			background:linear-gradient(to right,#b9b0b0,#483D8B);
+			text-align: center;
+			width: 1300px;
+
+				}
+	</style>
+</head>
+<body onload="relogio();">
+<center><div id="fundo">
+<div id="relogio"></div>
+</div>
+</center>
+</body>
+</html>
