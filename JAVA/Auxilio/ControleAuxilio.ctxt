@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ControleAuxilio
+comment1.params=
+comment1.target=ControleAuxilio()
+comment10.params=
+comment10.target=double\ saldoGoverno()
+comment2.params=
+comment2.target=boolean\ chefeFamilia()
+comment3.params=
+comment3.target=boolean\ renda()
+comment4.params=
+comment4.target=boolean\ adulto()
+comment4.text=\r\n\ \ \ \ public\ void\ mostrar(){\r\n\ \ \ \ \ \ \ \ System.out.println(""+nome+"\\n"+sexo+"\\n"+idade+"\\n"+cpf+"\\n"+rg+"\\n"+"\\n"+numeroCelular+"\\n"+renda+"\\n"+adulto()+"\\n"+mulher()+"\\n"+ramoAtividade+"\\n"+estado+"\\n"+cidade);\r\n\ \ \ \ }\r\n
+comment5.params=
+comment5.target=boolean\ mulher()
+comment6.params=
+comment6.target=boolean\ informal()
+comment7.params=
+comment7.target=boolean\ receberAuxilio()
+comment8.params=
+comment8.target=void\ alerta()
+comment9.params=
+comment9.target=double\ valorReceber()
+numComments=11
